@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f4efe6" />
+    <meta name="description" content="鹽埕老字號，從高雄鹽埕出發，以傳統手藝與在地食材，為日常留下一份熟悉的好味道。" />
+    <title>鹽埕老字號｜一味傳承・一份溫度</title>
+    <link rel="icon" type="image/svg+xml" href="/images/brand-mark.svg" />
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳至主要內容</a>
+
+    <header class="site-header" id="top">
+      <div class="header-inner">
+        <a class="brand" href="#top" aria-label="鹽埕老字號首頁">
+          <span class="brand-seal" aria-hidden="true"><span>鹽</span><span>埕</span></span>
+          <span class="brand-copy">
+            <strong>鹽埕老字號</strong>
+            <small>烏魚子專賣店　×　金島甜湯冰室</small>
+          </span>
+        </a>
+
+        <nav class="desktop-nav" aria-label="主要導覽">
+          <a class="nav-link active" href="#top">首頁</a>
+          <a class="nav-link" href="#story">關於我們</a>
+          <a class="nav-link" href="#products" data-filter-link="roe">烏魚子專區</a>
+          <a class="nav-link" href="#products" data-filter-link="dessert">甜湯冰品</a>
+          <a class="nav-link" href="#contact">門市資訊</a>
+          <a class="nav-link" href="#story">最新消息</a>
+        </nav>
+
+        <div class="header-actions">
+          <button class="icon-button search-toggle" type="button" aria-label="開啟商品搜尋" aria-expanded="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg>
+          </button>
+          <button class="icon-button member-button" type="button" aria-label="會員中心">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><circle cx="12" cy="9" r="2.7"></circle><path d="M6.8 18.3c.9-2.4 2.7-3.6 5.2-3.6s4.3 1.2 5.2 3.6"></path></svg>
+          </button>
+          <button class="icon-button cart-button" type="button" aria-label="購物袋，目前 0 件">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l1.2 12H3.8L5 8Z"></path><path d="M9 9V6a3 3 0 0 1 6 0v3"></path></svg>
+            <span class="cart-count" aria-live="polite">0</span>
+          </button>
+          <a class="shop-button" href="#products">線上選購 <span aria-hidden="true">↗</span></a>
+          <button class="icon-button menu-toggle" type="button" aria-label="開啟選單" aria-expanded="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="search-panel" hidden>
+        <label for="site-search">尋找一份喜歡的老味道</label>
+        <div class="search-field">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg>
+          <input id="site-search" type="search" placeholder="搜尋烏魚子、甜湯、伴手禮…" autocomplete="off" />
+          <button class="search-clear" type="button" aria-label="清除搜尋">清除</button>
+        </div>
+      </div>
+
+      <nav class="mobile-nav" aria-label="手機主要導覽" hidden>
+        <a href="#top">首頁</a><a href="#story">關於我們</a><a href="#products" data-filter-link="roe">烏魚子專區</a>
+        <a href="#products" data-filter-link="dessert">甜湯冰品</a><a href="#contact">門市資訊</a><a href="#story">最新消息</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-backdrop" aria-hidden="true"></div>
+        <div class="hero-copy-wrap">
+          <div class="hero-copy" aria-live="polite">
+            <p class="eyebrow light"><span class="eyebrow-line"></span><span class="hero-kicker">在鹽埕，遇見熟悉的好味道</span></p>
+            <h1 id="hero-title">高雄鹽埕老街<br /><em>一味傳承・一份溫度</em></h1>
+            <p class="hero-description">百年老店的烏魚子、遇上清涼甜湯與冰品，<br class="desktop-break" />在鹽埕，品味傳統與創新的美好。</p>
+            <div class="hero-buttons">
+              <a class="button button-gold" href="#products" data-filter-link="roe">探索烏魚子 <span aria-hidden="true">→</span></a>
+              <a class="button button-outline" href="#products" data-filter-link="dessert">探索甜湯冰品</a>
+            </div>
+          </div>
+        </div>
+        <img class="hero-food" src="/manus-storage/async-images/98oAv26VRmaT8OwmSFOnvW/image-1.webp" alt="烏魚子與傳統甜湯冰品的精緻組合" />
+        <p class="hero-note" aria-hidden="true">鹽埕的味道<br />從這裡開始。</p>
+        <div class="hero-controls" aria-label="主視覺輪播控制">
+          <span class="hero-count"><b>01</b><i></i>02</span>
+          <button class="hero-arrow hero-prev" type="button" aria-label="上一張主視覺">←</button>
+          <button class="hero-arrow hero-next" type="button" aria-label="下一張主視覺">→</button>
+        </div>
+        <div class="hero-bottom-label"><span>高雄・鹽埕</span><span>自 1968 年起，守著一份真心</span></div>
+      </section>
+
+      <section class="featured section-shell" id="products" aria-labelledby="products-title">
+        <div class="featured-intro">
+          <p class="eyebrow"><span class="eyebrow-line"></span>人氣推薦</p>
+          <h2 id="products-title">精選商品</h2>
+          <p>嚴選在地食材，傳承老味道，<br />也帶給您全新的味蕾體驗。</p>
+          <a class="text-link all-products" href="#contact">查看全部商品 <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="product-grid" aria-live="polite">
+          <article class="product-card" data-category="roe" data-search="烏魚子 手工 嚴選 傳統">
+            <div class="product-image"><img src="/manus-storage/async-images/98oAv26VRmaT8OwmSFOnvW/image-2.webp" alt="手工炙燒烏魚子切片" loading="lazy" /><span class="product-badge">招牌</span><button class="quick-add" type="button" aria-label="將招牌烏魚子加入購物袋">＋</button></div>
+            <div class="product-info"><div><h3>烏魚子</h3><p>嚴選高雄在地・手工炙燒</p></div><a class="text-link card-link" href="#contact">進入專區 <span aria-hidden="true">→</span></a></div>
+          </article>
+          <article class="product-card" data-category="roe" data-search="烏魚子 炙燒 切片 現切 香氣">
+            <div class="product-image"><img src="/manus-storage/async-images/dfDdxyGfR8GoShTWevdQOS/image-1.webp" alt="現切炙燒烏魚子切片搭配蒜苗與梨" loading="lazy" /><button class="quick-add" type="button" aria-label="將炙燒烏魚子切片加入購物袋">＋</button></div>
+            <div class="product-info"><div><h3>炙燒烏魚子切片</h3><p>現切直炙・香氣飽滿</p></div><a class="text-link card-link" href="#contact">進入專區 <span aria-hidden="true">→</span></a></div>
+          </article>
+          <article class="product-card" data-category="roe" data-search="烏魚子 嚐鮮組 分享 厚切 回甘">
+            <div class="product-image"><img src="/manus-storage/async-images/dfDdxyGfR8GoShTWevdQOS/image-2.webp" alt="烏魚子嚐鮮組佐以蘿蔔與傳統瓷器" loading="lazy" /><button class="quick-add" type="button" aria-label="將烏魚子嚐鮮組加入購物袋">＋</button></div>
+            <div class="product-info"><div><h3>烏魚子嚐鮮組</h3><p>厚切回甘・分享好滋味</p></div><a class="text-link card-link" href="#contact">進入專區 <span aria-hidden="true">→</span></a></div>
+          </article>
+          <article class="product-card" data-category="dessert" data-search="甜湯冰品 紅豆 粉圓 芋圓 清涼">
+            <div class="product-image"><img src="/manus-storage/async-images/98oAv26VRmaT8OwmSFOnvW/image-3.webp" alt="紅豆、芋圓與粉圓滿滿的甜湯冰品" loading="lazy" /><button class="quick-add" type="button" aria-label="將招牌甜湯冰品加入購物袋">＋</button></div>
+            <div class="product-info"><div><h3>甜湯冰品</h3><p>傳統手工熬煮・清涼香甜</p></div><a class="text-link card-link" href="#contact">進入專區 <span aria-hidden="true">→</span></a></div>
+          </article>
+          <article class="product-card" data-category="dessert" data-search="甜湯 紅豆湯 古早味 湯圓 芋圓">
+            <div class="product-image"><img src="/manus-storage/async-images/dfDdxyGfR8GoShTWevdQOS/image-3.webp" alt="暖呼呼的古早味紅豆甜湯與芋圓" loading="lazy" /><button class="quick-add" type="button" aria-label="將古早味紅豆湯加入購物袋">＋</button></div>
+            <div class="product-info"><div><h3>古早味紅豆湯</h3><p>慢火熬煮・暖心甜湯</p></div><a class="text-link card-link" href="#contact">進入專區 <span aria-hidden="true">→</span></a></div>
+          </article>
+          <article class="product-card" data-category="dessert" data-search="甜湯冰品 芋頭 牛奶 冰品 芋頭牛奶冰">
+            <div class="product-image"><img src="/manus-storage/async-images/dfDdxyGfR8GoShTWevdQOS/image-4.webp" alt="芋頭塊與奶香刨冰組成的芋頭牛奶冰" loading="lazy" /><button class="quick-add" type="button" aria-label="將芋頭牛奶冰加入購物袋">＋</button></div>
+            <div class="product-info"><div><h3>芋頭牛奶冰</h3><p>綿密芋頭・沁涼奶香</p></div><a class="text-link card-link" href="#contact">進入專區 <span aria-hidden="true">→</span></a></div>
+          </article>
+          <article class="product-card" data-category="gift" data-search="伴手禮盒 禮盒 烏魚子 心意 送禮">
+            <div class="product-image"><img src="/manus-storage/async-images/98oAv26VRmaT8OwmSFOnvW/image-4.webp" alt="以雅緻包裝呈現的在地伴手禮盒" loading="lazy" /><button class="quick-add" type="button" aria-label="將伴手禮盒加入購物袋">＋</button></div>
+            <div class="product-info"><div><h3>伴手禮盒</h3><p>送禮自用兩相宜</p></div><a class="text-link card-link" href="#contact">進入專區 <span aria-hidden="true">→</span></a></div>
+          </article>
+          <article class="product-card" data-category="local" data-search="門市限定 鹽埕 老街 在地">
+            <div class="product-image local-image"><img src="/images/yancheng-street.jpg" alt="高雄鹽埕老街的街景與老店風貌" loading="lazy" /><span class="local-stamp">鹽埕<br />限定</span></div>
+            <div class="product-info"><div><h3>門市限定</h3><p>鹽埕老街在地風味</p></div><a class="text-link card-link" href="#contact">查看門市 <span aria-hidden="true">→</span></a></div>
+          </article>
+          <p class="empty-results" hidden>沒有找到符合的商品，試試「烏魚子」或「甜湯」。</p>
+        </div>
+      </section>
+
+      <section class="story" id="story" aria-labelledby="story-title">
+        <div class="story-image-wrap"><img class="story-image" src="/manus-storage/async-images/98oAv26VRmaT8OwmSFOnvW/image-5.webp" alt="師傅以傳統手藝細心處理食材" loading="lazy" /><span class="story-image-caption">一份傳承<br />一種堅持</span></div>
+        <div class="story-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span>品牌故事</p>
+          <h2 id="story-title">老味道・新體驗</h2>
+          <p>從鹽埕老街起家，堅持以傳統工法製作烏魚子，嚴選食材、細心醃製，延續家族的味道。</p>
+          <p>如今，我們將這份堅持延伸到甜湯冰品，以在地食材與創新方式，讓更多人感受到鹽埕的美好與溫度。</p>
+          <a class="button button-dark" href="#values">了解更多 <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="story-street" aria-label="高雄鹽埕老街的街景"><img src="/images/yancheng-street.jpg" alt="綠蔭下的鹽埕老街巷弄" loading="lazy" /><p>巷弄裡的風景，<br />是我們的日常。</p></div>
+      </section>
+
+      <section class="visit-band" id="values" aria-label="品牌特色與門市資訊">
+        <div class="values-panel">
+          <p class="values-heading">為什麼選擇我們</p>
+          <h2>傳統 × 品質 × 服務</h2>
+          <div class="values-grid">
+            <div class="value-item"><span class="value-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M10 31c9-16 20-22 28-19-1 12-7 24-23 25-6 0-9-3-9-7 0-5 4-9 10-10"></path><path d="m14 37 20-20"></path></svg></span><h3>嚴選食材</h3><p>在地新鮮・品質保證</p></div>
+            <div class="value-item"><span class="value-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M8 12h32v23H8z"></path><path d="M13 18h22M13 24h14M14 35l-4 5M34 35l4 5"></path><path d="m17 29 5-5 5 4 5-6"></path></svg></span><h3>傳統工藝</h3><p>手工製作・風味傳承</p></div>
+            <div class="value-item"><span class="value-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M9 19h30l-4 21H13z"></path><path d="M13 19c0-5 4-8 8-8 4 0 6 3 6 8M27 19c0-6 4-9 9-9"></path><path d="M17 27h14M19 33h10"></path></svg></span><h3>創新甜品</h3><p>古早味 × 新滋味</p></div>
+            <div class="value-item"><span class="value-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M8 18h32v22H8z"></path><path d="M24 18v22M5 12h38v7H5z"></path><path d="M24 12c-9 0-12-8-7-9 5-1 7 9 7 9ZM24 12c9 0 12-8 7-9-5-1-7 9-7 9Z"></path></svg></span><h3>貼心服務</h3><p>線上訂購・快速出貨</p></div>
+          </div>
+        </div>
+        <div class="contact-panel" id="contact">
+          <div class="contact-copy">
+            <div class="contact-detail"><span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"></path><circle cx="12" cy="10" r="2.4"></circle></svg></span><div><strong>鹽埕老街賊仔</strong><small>高雄市第四集中市場</small></div></div>
+            <div class="contact-detail"><span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg></span><div><strong>營業時間</strong><small>10:00 – 21:00<br />週一公休</small></div></div>
+            <div class="contact-detail"><span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 3h4l2 5-3 2c1 3 3 5 6 6l2-3 5 2v4c0 1-1 2-2 2C10 21 3 14 3 5c0-1 1-2 3-2Z"></path></svg></span><div><strong>聯絡我們</strong><small>+886-7-XXX-XXXX</small></div></div>
+            <a class="map-button" href="https://www.google.com/maps/dir/?api=1&amp;destination=%E9%B9%BD%E5%9F%95%E8%80%81%E8%A1%97%E8%B3%8A%E4%BB%94%E9%AB%98%E9%9B%84%E5%B8%82%E7%AC%AC%E5%9B%9B%E9%9B%86%E4%B8%AD%E5%B8%82%E5%A0%B4" target="_blank" rel="noopener noreferrer">Google 地圖導航 <span aria-hidden="true">→</span></a>
+          </div>
+          <a class="location-visual" href="https://www.google.com/maps/dir/?api=1&amp;destination=%E9%B9%BD%E5%9F%95%E8%80%81%E8%A1%97%E8%B3%8A%E4%BB%94%E9%AB%98%E9%9B%84%E5%B8%82%E7%AC%AC%E5%9B%9B%E9%9B%86%E4%B8%AD%E5%B8%82%E5%A0%B4" target="_blank" rel="noopener noreferrer" aria-label="Google 地圖導航至鹽埕老街賊仔高雄市第四集中市場">
+            <img src="/images/yancheng-street.jpg" alt="鹽埕老街附近街景" loading="lazy" />
+            <span class="map-overlay" aria-hidden="true"><span class="map-roads"></span><span class="map-pin"><svg viewBox="0 0 24 24"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"></path><circle cx="12" cy="10" r="2.4"></circle></svg></span><span class="map-label">第四集中市場</span></span>
+            <span class="location-sticker"><b>鹽<br />埕</b><small>邀你來品味</small></span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="#top" aria-label="鹽埕老字號回到首頁"><span class="brand-seal" aria-hidden="true"><span>鹽</span><span>埕</span></span><span class="brand-copy"><strong>鹽埕老字號</strong><small>烏魚子專賣店　×　金島甜湯冰室</small></span></a>
+      <nav class="footer-nav" aria-label="頁尾導覽"><a href="#top">首頁</a><a href="#story">關於我們</a><a href="#products">烏魚子專區</a><a href="#products">甜湯冰品</a><a href="#contact">門市資訊</a><a href="#story">最新消息</a></nav>
+      <div class="social-links" aria-label="社群連結"><a href="#contact" aria-label="Facebook">f</a><a href="#contact" aria-label="Instagram">◎</a><a href="#contact" aria-label="YouTube">▶</a><a href="#contact" aria-label="LINE">L</a></div>
+      <div class="footer-bottom"><small>© <span id="current-year">2026</span> 鹽埕老字號　|　隱私權政策　|　服務條款</small><span>一味傳承・一份溫度</span></div>
+    </footer>
+
+    <div class="toast" role="status" aria-live="polite" hidden></div>
+  </body>
+</html>
