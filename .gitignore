@@ -35,3 +35,6 @@ Thumbs.db
 
 # Vercel
 .vercel
+
+# Scratch folder for downloaded source images (duplicates of public/images)
+public/images/temp/
